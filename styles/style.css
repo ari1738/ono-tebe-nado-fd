@@ -3,10 +3,12 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     justify-content: space-between;
-    padding: 93px 50px 96px 50px;
+    padding: 93px 52px 96px 50px;
 }
 
 .header__link {
+    font-family: Raleway;
+    font-style: normal;
     font-size: 18px;
     font-weight: 400;
 }
@@ -14,10 +16,7 @@
 .header__links-list {
     display: flex;
     flex-direction: row;
-    gap: 32px;
-}
-
-.header__links-list-item {
+    gap: 33px;
     list-style-type: circle;
 }
 
@@ -44,6 +43,9 @@
 .address {
     display: flex;
     flex-direction: column;
+    justify-self: end;
+    font-family: Raleway;
+    font-style: normal;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -51,4 +53,6 @@
 
 .header__address {
     justify-self: end;
+    align-self: center;
+    width: 236px;
 }
